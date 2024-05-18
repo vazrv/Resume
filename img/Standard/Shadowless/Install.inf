@@ -1,0 +1,55 @@
+; Forma Cursors Standard Shadowless
+; ODDYBUILDS 2024
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+FormaShadowlessNormalSelect.cur
+FormaShadowlessHelpSelect.cur
+FormaShadowlessWorkingInBackground.ani
+FormaShadowlessBusy.ani
+FormaShadowlessTextSelect.cur
+FormaShadowlessUnavailable.cur
+FormaShadowlessVerticalResize.cur
+FormaShadowlessHorizontalResize.cur
+FormaShadowlessDiagonalResize1.cur
+FormaShadowlessDiagonalResize2.cur
+FormaShadowlessMove.cur
+FormaShadowlessLinkSelect.cur
+FormaShadowlessLocationSelect.cur
+FormaShadowlessPersonSelect.cur
+FormaShadowlessPrecisionSelect.cur
+FormaShadowlessHandwriting.cur
+FormaShadowlessAlternateSelect.cur
+[Strings]
+CUR_DIR       = "Cursors\Forma Cursors Standard Shadowless"
+SCHEME_NAME   = "Forma Cursors Standard Shadowless"
+pointer       = "FormaShadowlessNormalSelect.cur"
+help          = "FormaShadowlessHelpSelect.cur"
+work          = "FormaShadowlessWorkingInBackground.ani"
+busy          = "FormaShadowlessBusy.ani"
+text          = "FormaShadowlessTextSelect.cur"
+unavailiable  = "FormaShadowlessUnavailable.cur"
+vert          = "FormaShadowlessVerticalResize.cur"
+horz          = "FormaShadowlessHorizontalResize.cur"
+dgn1          = "FormaShadowlessDiagonalResize1.cur"
+dgn2          = "FormaShadowlessDiagonalResize2.cur"
+move          = "FormaShadowlessMove.cur"
+pin           = "FormaShadowlessLocationSelect.cur"
+person        = "FormaShadowlessPersonSelect.cur"
+link          = "FormaShadowlessLinkSelect.cur"
+cross         = "FormaShadowlessPrecisionSelect.cur"
+hand          = "FormaShadowlessHandwriting.cur"
+alternate     = "FormaShadowlessAlternateSelect.cur"

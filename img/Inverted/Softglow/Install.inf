@@ -1,0 +1,55 @@
+; Forma Cursors Inverted Softglow
+; ODDYBUILDS 2024
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+FormaInvertedSoftglowNormalSelect.cur
+FormaInvertedSoftglowHelpSelect.cur
+FormaInvertedSoftglowWorkingInBackground.ani
+FormaSoftglowBusy.ani
+FormaInvertedSoftglowTextSelect.cur
+FormaSoftglowUnavailable.cur
+FormaInvertedSoftglowVerticalResize.cur
+FormaInvertedSoftglowHorizontalResize.cur
+FormaInvertedSoftglowDiagonalResize1.cur
+FormaInvertedSoftglowDiagonalResize2.cur
+FormaInvertedSoftglowMove.cur
+FormaInvertedSoftglowLinkSelect.cur
+FormaInvertedSoftglowLocationSelect.cur
+FormaInvertedSoftglowPersonSelect.cur
+FormaInvertedSoftglowPrecisionSelect.cur
+FormaInvertedSoftglowHandwriting.cur
+FormaInvertedSoftglowAlternateSelect.cur
+[Strings]
+CUR_DIR       = "Cursors\Forma Cursors Inverted Softglow"
+SCHEME_NAME   = "Forma Cursors Inverted Softglow"
+pointer       = "FormaInvertedSoftglowNormalSelect.cur"
+help          = "FormaInvertedSoftglowHelpSelect.cur"
+work          = "FormaInvertedSoftglowWorkingInBackground.ani"
+busy          = "FormaSoftglowBusy.ani"
+text          = "FormaInvertedSoftglowTextSelect.cur"
+unavailiable  = "FormaSoftglowUnavailable.cur"
+vert          = "FormaInvertedSoftglowVerticalResize.cur"
+horz          = "FormaInvertedSoftglowHorizontalResize.cur"
+dgn1          = "FormaInvertedSoftglowDiagonalResize1.cur"
+dgn2          = "FormaInvertedSoftglowDiagonalResize2.cur"
+move          = "FormaInvertedSoftglowMove.cur"
+link          = "FormaInvertedSoftglowLinkSelect.cur"
+pin           = "FormaInvertedSoftglowLocationSelect.cur"
+person        = "FormaInvertedSoftglowPersonSelect.cur"
+cross         = "FormaInvertedSoftglowPrecisionSelect.cur"
+hand          = "FormaInvertedSoftglowHandwriting.cur"
+alternate     = "FormaInvertedSoftglowAlternateSelect.cur"

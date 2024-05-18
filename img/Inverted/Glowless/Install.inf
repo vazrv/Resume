@@ -1,0 +1,55 @@
+; Forma Cursors Inverted Glowless
+; ODDYBUILDS 2024
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+FormaInvertedGlowlessNormalSelect.cur
+FormaInvertedGlowlessHelpSelect.cur
+FormaInvertedGlowlessWorkingInBackground.ani
+FormaShadowlessBusy.ani
+FormaInvertedGlowlessTextSelect.cur
+FormaShadowlessUnavailable.cur
+FormaInvertedGlowlessVerticalResize.cur
+FormaInvertedGlowlessHorizontalResize.cur
+FormaInvertedGlowlessDiagonalResize1.cur
+FormaInvertedGlowlessDiagonalResize2.cur
+FormaInvertedGlowlessMove.cur
+FormaInvertedGlowlessLinkSelect.cur
+FormaInvertedGlowlessLocationSelect.cur
+FormaInvertedGlowlessPersonSelect.cur
+FormaInvertedGlowlessPrecisionSelect.cur
+FormaInvertedGlowlessHandwriting.cur
+FormaInvertedGlowlessAlternateSelect.cur
+[Strings]
+CUR_DIR       = "Cursors\Forma Cursors Inverted Glowless"
+SCHEME_NAME   = "Forma Cursors Inverted Glowless"
+pointer       = "FormaInvertedGlowlessNormalSelect.cur"
+help          = "FormaInvertedGlowlessHelpSelect.cur"
+work          = "FormaInvertedGlowlessWorkingInBackground.ani"
+busy          = "FormaShadowlessBusy.ani"
+text          = "FormaInvertedGlowlessTextSelect.cur"
+unavailiable  = "FormaShadowlessUnavailable.cur"
+vert          = "FormaInvertedGlowlessVerticalResize.cur"
+horz          = "FormaInvertedGlowlessHorizontalResize.cur"
+dgn1          = "FormaInvertedGlowlessDiagonalResize1.cur"
+dgn2          = "FormaInvertedGlowlessDiagonalResize2.cur"
+move          = "FormaInvertedGlowlessMove.cur"
+link          = "FormaInvertedGlowlessLinkSelect.cur"
+pin           = "FormaInvertedGlowlessLocationSelect.cur"
+person        = "FormaInvertedGlowlessPersonSelect.cur"
+cross         = "FormaInvertedGlowlessPrecisionSelect.cur"
+hand          = "FormaInvertedGlowlessHandwriting.cur"
+alternate     = "FormaInvertedGlowlessAlternateSelect.cur"

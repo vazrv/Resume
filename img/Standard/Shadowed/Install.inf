@@ -1,0 +1,55 @@
+; Forma Cursors Standard Shadowed
+; ODDYBUILDS 2024
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+FormaShadowedNormalSelect.cur
+FormaShadowedHelpSelect.cur
+FormaShadowedWorkingInBackground.ani
+FormaShadowedBusy.ani
+FormaShadowedTextSelect.cur
+FormaShadowedUnavailable.cur
+FormaShadowedVerticalResize.cur
+FormaShadowedHorizontalResize.cur
+FormaShadowedDiagonalResize1.cur
+FormaShadowedDiagonalResize2.cur
+FormaShadowedMove.cur
+FormaShadowedLinkSelect.cur
+FormaShadowedLocationSelect.cur
+FormaShadowedPersonSelect.cur
+FormaShadowedPrecisionSelect.cur
+FormaShadowedHandwriting.cur
+FormaShadowedAlternateSelect.cur
+[Strings]
+CUR_DIR       = "Cursors\Forma Cursors Standard Shadowed"
+SCHEME_NAME   = "Forma Cursors Standard Shadowed"
+pointer       = "FormaShadowedNormalSelect.cur"
+help          = "FormaShadowedHelpSelect.cur"
+work          = "FormaShadowedWorkingInBackground.ani"
+busy          = "FormaShadowedBusy.ani"
+text          = "FormaShadowedTextSelect.cur"
+unavailiable  = "FormaShadowedUnavailable.cur"
+vert          = "FormaShadowedVerticalResize.cur"
+horz          = "FormaShadowedHorizontalResize.cur"
+dgn1          = "FormaShadowedDiagonalResize1.cur"
+dgn2          = "FormaShadowedDiagonalResize2.cur"
+move          = "FormaShadowedMove.cur"
+link          = "FormaShadowedLinkSelect.cur"
+pin           = "FormaShadowedLocationSelect.cur"
+person        = "FormaShadowedPersonSelect.cur"
+cross         = "FormaShadowedPrecisionSelect.cur"
+hand          = "FormaShadowedHandwriting.cur"
+alternate     = "FormaShadowedAlternateSelect.cur"
